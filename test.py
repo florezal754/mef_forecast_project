@@ -18,6 +18,11 @@ def ask_user():
     print(num)
     return "<h1>que dise</p>"
 
+#ask for int user input
+@app.route('/hola')
+def hola():
+    return render_template("w3template.html")
+
 
 #method to do the action of run the app/ this runs the app server
 app.run()
