@@ -1,1 +1,1 @@
-web: python test.py
+web: gunicorn gettingstarted.wsgi
