@@ -14,7 +14,7 @@ app.config["DEBUG"] = True
 #ask for int user input
 @app.route('/', methods = ['POST','GET'])
 def ask_user():
-    return "<h1>que dise</p>
+    return "<h1>que dise</p>"
 
 
 #method to do the action of run the app/ this runs the app server
