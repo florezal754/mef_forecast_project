@@ -12,10 +12,8 @@ CORS(app)
 app.config["DEBUG"] = True
 
 #ask for int user input
-@app.route('/')
+@app.route('/', methods = ['POST','GET'])
 def ask_user():
-    num = input('Enter a value:')
-    print(num)
     return "<h1>que dise</p>
 
 
